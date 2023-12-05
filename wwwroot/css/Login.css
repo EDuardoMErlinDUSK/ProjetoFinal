@@ -1,0 +1,32 @@
+body {
+    background-color: #BDC9DF;
+}
+
+.form-group {
+    background-color: slategray;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.Top {
+    background-color: lightslategray;
+    text-align: center;
+    width: 60%;
+    padding: 5rem;
+    margin: 10rem auto;
+}
+
+.ioio input[type=submit] {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border-color: black;
+}

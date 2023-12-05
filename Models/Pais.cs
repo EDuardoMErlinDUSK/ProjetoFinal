@@ -7,7 +7,7 @@ namespace ProjetoFinal.Models
     [Table("Pais")]
     public class Pais
     {
-        [Column("PaisId")]
+        [Column("Id")]
         [Display(Name = "Id do pais")]
         public int Id { get; set; }
 
