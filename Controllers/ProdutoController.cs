@@ -60,7 +60,7 @@ namespace ProjetoFinal.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,ProdutoNome,QunatidadeEstoque,TipoProdutoId,FornecedorId")] Produto produto)
         {
-            produto.QunatidadeEstoque = 0;
+            
             if (ModelState.IsValid)
             {
                 _context.Add(produto);
